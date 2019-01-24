@@ -8,9 +8,9 @@ vizIPPShare.R contains the function `vizIPPShare()`.
 Source each of the files as so.  
 
 ```{r}
-source(getEIAStateGenCap.R)  
-source(calcIPPGenCapShare.R)
-source(vizIPPShare.R)
+source('getEIAStateGenCap.R')  
+source('calcIPPGenCapShare.R')
+source('vizIPPShare.R')
 ```  
 
 The function `getGenCap()` takes no arguments and is hardcoded with the EIA URL distribnuting the generation capacity data.  Specifically, the function is getting the **Existing Nameplate and Net Summer Capacity by Energy Source, Producer Type and State (EIA-860)** and returns the data as a R data.frame.  Assign `getGenCap()` to some varaible name like the following.  
